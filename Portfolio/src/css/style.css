@@ -61,7 +61,7 @@ body {
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
-    transition: .3s;
+    transition: .2s;
 
 }
 
@@ -178,7 +178,7 @@ section {
     color: var(--bg-color);
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: .4s;
 }
 
 .btn-box .btn:hover {
@@ -207,7 +207,7 @@ section {
     height: 100%;
     background: var(--bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .4s;
 }
 
 .btn-box .btn:hover::before {
@@ -237,7 +237,7 @@ section {
     color: var(--main-color);
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: .4s;
 }
 
 .home-sci a:hover {
@@ -253,7 +253,7 @@ section {
     height: 100%;
     background: var(--main-color);
     z-index: -1;
-    transition: .5s;
+    transition: .4s;
 }
 
 .home-sci a:hover::before {
@@ -267,7 +267,7 @@ section {
     width: 50%;
     height: 100%;
     background: transparent;
-    transition: 3s;
+    transition: 2s;
 }
 
 .home-imgHover:hover {
@@ -428,7 +428,7 @@ span {
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .4s;
 }
 
 .education-content .content:hover::before {
@@ -505,7 +505,7 @@ span {
     height: 100%;
     background: var(--bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .4s;
 
 }
 
@@ -646,7 +646,7 @@ span {
     background: var(--second-bg-color);
     border-radius: .6rem;
     z-index: -1;
-    transition: .5s;
+    transition: .4s;
 }
 
 .contact form .input-box .input-field input:focus~.focus,
@@ -711,7 +711,7 @@ span {
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .4s;
 }
 
 .footer-iconTop a:hover::before {
@@ -721,7 +721,7 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--bg-color);
-    transition: .5s;
+    transition: .4s;
 }
 
 .footer-iconTop a i:hover {
@@ -752,8 +752,8 @@ span {
 }
 
 .animate.scroll {
-    transition: 1s ease;
-    transition-delay: calc(.3s / var(--i));
+    transition: .9s ease;
+    transition-delay: calc(.2s / var(--i));
     animation: none;
 }
 
@@ -771,7 +771,7 @@ section:nth-child(odd) .animate.scroll,
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll {
-    transition-delay: calc(.3s * var(--i));
+    transition-delay: calc(.2s * var(--i));
     width: 0;
 
 }
@@ -824,8 +824,8 @@ section:nth-child(odd) .animate.scroll,
         padding: 1rem 4%;
         background: var(--main-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        transition: .25s ease;
-        transition-delay: .25s;
+        transition: .125s ease;
+        transition-delay: .125s;
         z-index: 1;
 
     }
@@ -845,13 +845,13 @@ section:nth-child(odd) .animate.scroll,
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         z-index: -1;
-        transition: .25s ease;
+        transition: .125s ease;
         transition-delay: 0s;
     }
 
     .navbar.active .active-nav {
         left: 0;
-        transition-delay: .25s;
+        transition-delay: .125s;
     }
 
     .navbar a {
@@ -859,14 +859,14 @@ section:nth-child(odd) .animate.scroll,
         font-size: 2rem;
         margin: 3rem 0;
         transform: translateX(-20rem);
-        transition: .25s ease;
+        transition: .125s ease;
         transition-delay: 0s;
 
     }
 
     .navbar.active a {
         transform: translateX(0);
-        transition-delay: .25s;
+        transition-delay: .125s;
     }
 
     .home-imgHover {
