@@ -1,2 +1,2 @@
 # MyPortfolio
-https://turt781.github.io/MyPortfolio/Portfolio/src/html/index.html
+https://turt781.github.io/MyPortfolio/src/html/index.html
