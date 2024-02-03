@@ -205,8 +205,7 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background: grey;
-    /* background: var(--bg-color); */
+    background: var(--bg-color);
     z-index: -1;
     transition: .4s;
 }
