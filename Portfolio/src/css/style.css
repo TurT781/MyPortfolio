@@ -932,13 +932,12 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 .mailto{
-    display: inline;
+    display: flex;
     color: var(--main-color);
     position: relative;
-    text-decoration: underline;
-    padding-left: 10rem;
-
+    text-decoration: underline;   
 }
+
 /* Keyframe Animation  */
 @keyframes homeBgText {
 
