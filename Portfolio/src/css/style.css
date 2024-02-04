@@ -931,6 +931,12 @@ section:nth-child(odd) .animate.scroll,
         text-align: center;
     }
 }
+.mailto{
+    display: flex;
+    color: var(--main-color);
+    position: relative;
+    text-decoration: underline;   
+}
 
 /* Keyframe Animation  */
 @keyframes homeBgText {
@@ -947,25 +953,6 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-/* @keyframes homeCursorText {
-
-    0%,
-    10%,
-    100% {
-        width: 0;
-    }
-
-    65%,
-    78%,
-    85% {
-        width: 100%;
-        opacity: 1;
-    }
-    75%,
-    81%{
-        opacity: 0;
-    }
-} */
 @keyframes homeCursorText {
 
     0%,
