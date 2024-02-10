@@ -7,8 +7,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     $to = "flavien.patriarca@next-u.fr";
-    $subject = "Nouveau message de votre site web";
-    $message_body = "Nom: $full_name\n";
+    $subject = "Nouveau Message du site web Portfolio";
+    $message_body = "Nom / Prénom: $full_name\n";
     $message_body .= "Email: $email\n";
     $message_body .= "Numéro de téléphone: $mobile_number\n";
     $message_body .= "Sujet: $subject\n";
