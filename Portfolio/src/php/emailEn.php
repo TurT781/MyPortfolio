@@ -11,11 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $to = "flavien.patriarca@next-u.fr";
 
-
     if (mail($to, $subject, $message_body)) {
-        echo "<p>Votre message a été envoyé avec succès à $to.</p>";
+        echo "<p>Your message has been successfully sent to $to.</p>";
     } else {
-        echo "<p>Désolé, une erreur s'est produite lors de l'envoi de votre message.</p>";
+        echo "<p>Sorry, an error occurred while sending your message.</p>";
     }
 }
 ?>
