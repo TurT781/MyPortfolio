@@ -319,7 +319,7 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contactez <span>Moi !</span></h2>
 
-        <form action="Portfolio\src/php/email.php" method="POST">
+        <form action="Portfolio\src/php/email.php" method="POST" action="index.html">
             <div class="input-box">
                 <div class="input-field">
                     <input type="text" name="full_name" placeholder="Nom / Prénom" required>
@@ -344,14 +344,14 @@
             </div>
 
             <div class="textarea-field">
-                <textarea name="message" cols="30" rows="10" placeholder="Votre Message"
+                <textarea name="message" cols="30" rows="10" placeholder="Votre Message (indisponible)"
                     required></textarea>
                 <span class="focus"></span>
 
             </div>
 
             <div class="btn-box btns">
-                <button type="Submit" class="btn" >Envoyer</button>
+                <button type="Submit" class="btn" disabled>Envoyer</button>
             </div>
         </form>
     </section>
