@@ -11,7 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $to = "flavien.patriarca@next-u.fr";
 
-
     if (mail($to, $subject, $message_body)) {
         echo "<p>Votre message a été envoyé avec succès à $to.</p>";
     } else {
