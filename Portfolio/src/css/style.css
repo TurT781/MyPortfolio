@@ -153,10 +153,6 @@ section {
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
-/* btn cursor not allowed due to PHP not working / compiled on GitHub (cant fix it from March 2024 */
-.btn{
-    cursor: not-allowed !important ;
-}
 
 .btn-box {
     position: relative;
