@@ -544,7 +544,7 @@ span {
     border-radius: .3rem;
     background: var(--main-color);
 }
-
+/*  */
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
     width: 85%;
 }
@@ -572,7 +572,7 @@ span {
 .skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
     width: 70%;
 }
-
+/* Professional skills */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
     width: 80%;
 }
@@ -589,6 +589,11 @@ span {
     width: 55%;
 }
 
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+    width: 70%;
+}
+
+/* Forgein language */
 .skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
     width: 100%;
 }
@@ -747,6 +752,7 @@ span {
     height: 100%;
     background: var(--bg-color);
     z-index: 98;
+
 }
 
 .animate.home-img {

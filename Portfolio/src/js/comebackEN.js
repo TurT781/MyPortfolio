@@ -5,3 +5,4 @@ window.addEventListener("blur", () => {
 window.addEventListener('focus', () => {
     document.title = docTitle;
 })
+
