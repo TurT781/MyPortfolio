@@ -24,10 +24,10 @@ En dehors de mes compétences techniques, je suis également un communicateur ef
 
 Si vous souhaitez en savoir plus sur mes projets ou discuter de collaborations potentielles, n'hésitez pas à me contacter :
 
-- **Email**: flavien.patriarca@next-u.fr
+- **Email**: f.patriarca2002@gmail.com
 - **LinkedIn**: [Flavien Patriarca](https://www.linkedin.com/in/flavien-patriarca/)
 
 
-© Flavien Patriarca | Dernière mise à jour : Mai 2024
+© Flavien Patriarca | Dernière mise à jour : Juillet 2024
 
 __https://turt781.github.io/MyPortfolio/index.html__
