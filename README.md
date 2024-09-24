@@ -29,5 +29,5 @@ Si vous souhaitez en savoir plus sur mes projets ou discuter de collaborations p
 
 
 © Flavien Patriarca | Dernière mise à jour : Sept. 2024
-
+M%
 __https://turt781.github.io/MyPortfolio/index.html__
