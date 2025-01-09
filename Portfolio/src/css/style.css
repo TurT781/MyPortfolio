@@ -14,7 +14,7 @@
 :root {
     --bg-color: #081b29;
     --second-bg-color: #112e42;
-    --text-color: #ededed;
+    --text-color: #e6e6e6;
     --main-color: #00abf0;
 }
 
@@ -125,6 +125,7 @@ section {
     background-repeat: no-repeat;
     background-clip: text;
     background-position: -33rem 0;
+    letter-spacing: 0.2rem;
 }
 
 .home.show-animate .home-content .text-animate h3 {
@@ -544,6 +545,7 @@ span {
     border-radius: .3rem;
     background: var(--main-color);
 }
+
 /*  */
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
     width: 85%;
@@ -572,6 +574,7 @@ span {
 .skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
     width: 70%;
 }
+
 /* Professional skills */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
     width: 80%;
@@ -601,9 +604,11 @@ span {
 .skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
     width: 100%;
 }
+
 .skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span {
     width: 90%;
 }
+
 .skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span {
     width: 30%;
 }
@@ -822,7 +827,7 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 850px) {
-    .animate.home-img{
+    .animate.home-img {
         width: 55%;
     }
 }
@@ -951,11 +956,12 @@ section:nth-child(odd) .animate.scroll,
         text-align: center;
     }
 }
-.mailto{
+
+.mailto {
     display: flex;
     color: var(--main-color);
     position: relative;
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
 /* Keyframe Animation  */
