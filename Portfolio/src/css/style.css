@@ -88,8 +88,8 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url(../../assets/op.png) no-repeat;
-    background-size: 60%;
+    background: url(../../assets/robot.png) no-repeat;
+    background-size: 40%;
     background-position: right;
 }
 
@@ -591,6 +591,10 @@ span {
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
     width: 70%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
+    width: 40%;
 }
 
 /* Forgein language */
