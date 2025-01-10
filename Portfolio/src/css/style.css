@@ -84,6 +84,10 @@ section {
 
 }
 
+.epitech-text{
+    color: var(--main-color);
+}
+
 .home {
     display: flex;
     align-items: center;
