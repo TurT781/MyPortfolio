@@ -63,7 +63,8 @@
         <div class="home-sci">
             <a href="https://www.facebook.com/FL4VI3N/" target="_blank"><i class='bx bxl-facebook'></i></a>
             <a href="https://www.instagram.com/flavien_ptrk/" target="_blank"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.linkedin.com/in/flavien-patriarca-633010255/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.linkedin.com/in/flavien-patriarca-633010255/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
             <a href="https://github.com/TurT781" target="_blank"><i class='bx bxl-github'></i></a>
             <span class="animate" style="--i:2;"></span>
         </div>
@@ -349,17 +350,21 @@
 
     <!-- contact section design -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contactez <span>Moi !</span></h2>
+        <h2 class="heading">Contactez <span>Moi !</span>
+            <span class="animate scroll" style="--i:1;"></span>
+        </h2>
 
         <form action="Portfolio/src/php/email.php" method="POST" action="index.html">
             <div class="input-box">
                 <div class="input-field">
                     <input type="text" name="full_name" placeholder="Nom / Prénom" required>
                     <span class="focus"></span>
+                    <span class="animate scroll" style="--i:3;"></span>
                 </div>
                 <div class="input-field">
                     <input type="text" name="email" placeholder="Email" required>
                     <span class="focus"></span>
+                    <span class="animate scroll" style="--i:1;"></span>
                 </div>
 
             </div>
@@ -368,10 +373,12 @@
                 <div class="input-field">
                     <input type="number" name="mobile_number" placeholder="Numéro Mobile :" min="0" maxlength="10">
                     <span class="focus"></span>
+                    <span class="animate scroll" style="--i:2;"></span>
                 </div>
                 <div class="input-field">
                     <input type="text" name="subject" placeholder="Objet" required>
                     <span class="focus"></span>
+                    <span class="animate scroll" style="--i:3;"></span>
                 </div>
             </div>
 
@@ -379,11 +386,12 @@
                 <textarea name="message" cols="30" rows="10" placeholder="Votre Message (indisponible)"
                     required></textarea>
                 <span class="focus"></span>
-
+                <span class="animate scroll" style="--i:1;"></span>
             </div>
 
             <div class="btn-box btns">
                 <button type="Submit" class="btn" disabled style="cursor: not-allowed;">Envoyer</button>
+                <span class="animate scroll" style="--i:2;"></span>
             </div>
         </form>
     </section>
