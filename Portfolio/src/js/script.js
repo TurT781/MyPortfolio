@@ -2,6 +2,14 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
+// Change the title
+let docTitle = document.title;
+window.addEventListener("blur", () => {
+    document.title = "Come Back 🔭";
+})
+window.addEventListener('focus', () => {
+    document.title = docTitle;
+})
 // Toggle the mobile menu and icon on click
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x'); // Change icon to "X" on toggle
@@ -54,3 +62,31 @@ window.onscroll = () => {
         window.innerHeight + window.scrollY >= document.scrollingElement.scrollHeight
     );
 };
+// // Disabled dev tool
+// (function () {
+//     const widthThreshold = 100; // higher difference to detectDevTools
+//     let devToolsOpen = false;
+
+//     const detectDevTools = function () {
+//         const widthDifference = window.outerWidth - window.innerWidth;
+//         const heightDifference = window.outerHeight - window.innerHeight;
+
+//         // only if dev tools is open
+//         if (widthDifference > widthThreshold || heightDifference > widthThreshold) {
+//             devToolsOpen = true;
+//             document.body.innerHTML = `
+//             <div style="text-align: center";>
+//                 <h1 style ="color:red" >Access denied</h1>
+//                 <h1 style="font-size:5vh">Please close the inspector to see my Portfolio</h1>
+//             </div>
+//             `;
+//         } else if (devToolsOpen) {
+//             // reload the window since we close dev tools
+//             devToolsOpen = false;
+//             location.reload();
+//         }
+//     };
+//     // Watch each 100ms if it detects dev tools
+//     setInterval(detectDevTools, 100);
+// })();
+
