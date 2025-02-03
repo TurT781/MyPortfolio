@@ -24,10 +24,10 @@ En dehors de mes compétences techniques, je suis également un communicateur ef
 
 Si vous souhaitez en savoir plus sur mes projets ou discuter de collaborations potentielles, n'hésitez pas à me contacter :
 
-- **Email**: flavien.patriarca@epitech.eu
+- **Email**: <flavien.patriarca@epitech.eu>
 - **LinkedIn**: [Flavien Patriarca](https://www.linkedin.com/in/flavien-patriarca/)
-- **Instagram**: https://www.instagram.com/flavien_ptrk/
+- **Instagram**: <https://www.instagram.com/flavien_ptrk/>
 
 © Flavien Patriarca | Dernière mise à jour : Jan. 2025
 
-__https://turt781.github.io/MyPortfolio/index.html__
+**<https://turt781.github.io/MyPortfolio/index.html>**
