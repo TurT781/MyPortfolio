@@ -12,7 +12,7 @@ En parallèle de mes études, je consacre également du temps à des activités 
 
 ## Parcours professionnel
 
-Mon parcours professionnel reflète mon engagement envers le développement web et les technologies numériques. J'ai eu l'occasion de travailler sur une variété de projets, allant du développement d'applications web dynamiques à la création de sites statiques et adaptatifs. Mon expérience comprend également des stages dans des entreprises renommées, où j'ai pu mettre en pratique mes compétences et acquérir de nouvelles connaissances dans des environnements professionnels stimulants.
+Mon parcours professionnel reflète mon engagement envers le développement web et les technologies numériques. J'ai eu l'occasion de travailler sur une variété de projets, allant du développement d'applications web dynamiques à la création de sites statiques et adaptatifs. Mon expérience comprend également des stages dans des entreprises renommées, où j'ai pu mettre en pratique mes compétences et acquérir de nouvelles connaissances dans des environnements professionnels stimulants. Pour conclure, j'ai eu l'opportunité de participer à un module où j'ai pu partager mes connaissances et accompagner de jeunes étudiants dans l'apprentissage des langages web.
 
 ## Compétences
 
