@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
 
-    $to = "flavien.patriarca@next-u.fr";
+    $to = "flavien.patriarca@epitech.eu";
 
     if (mail($to, $subject, $message_body)) {
         echo "<p>Votre message a été envoyé avec succès à $to.</p>";
