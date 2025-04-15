@@ -84,7 +84,7 @@ section {
 
 }
 
-.epitech-text {
+.link-text {
     color: var(--main-color);
 }
 
@@ -597,12 +597,17 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
-    width: 70%;
+    width: 65%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
     width: 40%;
 }
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
+    width: 50%;
+}
+
 
 /* Forgein language */
 .skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
@@ -614,7 +619,7 @@ span {
 }
 
 .skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span {
-    width: 30%;
+    width: 20%;
 }
 
 .contact {
