@@ -10,6 +10,6 @@ Si vous souhaitez en savoir plus sur mes projets ou discuter de collaborations p
 - **LinkedIn**: [Flavien Patriarca](https://www.linkedin.com/in/flavien-patriarca/)
 - **Instagram**: <https://www.instagram.com/flavien_ptrk/>
 
-© Flavien Patriarca | Dernière mise à jour : Jan. 2025
+©Flavien Patriarca | Dernière mise à jour : April. 2025
 
 **<https://turt781.github.io/MyPortfolio/index.html>**
